@@ -1,0 +1,30 @@
+.nav-item {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    position: fixed; /* Fixed positioning to cover full screen */
+    top: 100%; /* Place it below the nav link */
+    left: 0; /* Start from the leftmost edge of the screen */
+    width: 100vw; /* Full width of the viewport */
+    height: 50vh; /* Adjust height as needed */
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    color: white; /* Text color */
+    display: flex; /* Flexbox for layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    z-index: 999; /* Ensure it's above other content */
+    transition: opacity 0.3s ease; /* Smooth transition effect */
+    padding: 20px; /* Optional padding */
+  }
+  
+  .nav-link {
+    color: white; /* Nav link text color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .dropdown-content > div {
+    text-align: center; /* Center text inside dropdown content */
+    padding: 20px; /* Add padding to the dropdown content */
+  }
+  

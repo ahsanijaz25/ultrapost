@@ -1,0 +1,76 @@
+.pops{
+    font-family: "Poppins", sans-serif;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.border-left{
+    border-left: 1px solid black;
+}
+
+.ps-pc{
+    padding-left: 3rem!important;
+}
+
+.plus-sign-list {
+    list-style: none; /* Removes default bullet points */
+    padding-left: 0; /* Removes any default padding */
+  }
+
+  
+.plus-sign-list li {
+    line-height: 1.4;
+    font-size: 0.8rem;
+    margin-top: 6px;
+  }
+
+.card-font{
+    font-size: 0.8rem;
+}
+
+.green{
+    color: #89c600;
+}
+
+  
+  .plus-sign-list li::before {
+    content: '+ '; /* Adds a plus sign before each list item */
+    color: #000; /* You can change the color of the plus sign if needed */
+    font-weight: bold; /* Make the plus sign bold */
+    padding-right: 3px;
+  }
+
+.old-price{
+    color: #f04e37;
+    font-size: 0.7rem;
+    font-weight: 400;
+    text-decoration: line-through;
+}
+
+.new-price{
+    color: #101922;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+/* buttons */
+.cart-btn{
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+
+.plus-btn{
+    background-color:#5e646b ;
+    color: white;
+    padding: 10px 20px;
+}
+
+.pc-config p{
+    font-size: 0.8rem;
+
+}

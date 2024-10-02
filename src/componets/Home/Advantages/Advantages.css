@@ -1,0 +1,23 @@
+.advantage-background {
+    background: #101922;
+    font-family: "Poppins", sans-serif;
+    padding: 100px 0;
+}
+
+.advantage-background h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.advantage-background em {
+    color: #89c600;
+    font-style: normal;
+}
+
+
+.advantage-background p{
+    font-size: 1rem;
+    color:  #b4b9bb;
+    line-height: 1.4;
+}

@@ -1,0 +1,165 @@
+.top-header{
+    background-color: #373F47;
+}
+
+.number{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #89c600;
+}
+
+.gray{
+    color: #b4b9bb;
+}
+
+.top-font{
+    font-size: 1rem;
+}
+
+.dropdown-toggle::after {
+   margin-left: 4.255em;
+}
+
+
+.custom-dropdown {
+    transform: translate3d(0px, 33px, 0px) !important; /* Use !important to override Bootstrap styles */
+  }
+
+/* General Navbar Styles */
+.navbar {
+    background-color: #101922!important;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .navbar-brand img {
+    width: 140px; /* Adjust this size based on the logo */
+  }
+  
+  .nav-link {
+    color: white;
+    padding: 10px;
+  }
+  
+  .nav-link:hover {
+    color: #89c600;
+  }
+  
+  /* Icons Styles */
+  .navbar-icons .nav-icon {
+    color: #89c600;
+    font-size: 1.2rem;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .navbar-icons .nav-icon:hover {
+    color: white;
+  }
+  
+  /* Media Query for Mobile (max-width 1020px) */
+  @media (max-width: 1020px) {
+    /* Center the nav links vertically in mobile */
+    .navbar-nav {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    /* Fullscreen background for the collapsed menu */
+    .navbar-collapse {
+      background-color: #101922;
+      height: 100vh;
+      justify-content: center;
+    }
+  
+    /* Hide the desktop icons on mobile and move them to the bottom */
+    .navbar-icons {
+      justify-content: center;
+      padding-top: 1rem;
+    }
+  }
+  
+
+  .nav-link {
+    position: relative; /* For positioning the pseudo-element */
+    padding-bottom: 5px; /* Add padding to avoid overlapping with the border */
+  
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .nav-link::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: transparent;
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    transition: background-color 0.3s ease;
+}
+
+
+  .nav-link:hover::after {
+    background-color: #89C600; 
+  }
+  
+
+
+
+
+
+  /* offcanvas */
+
+  /* Header.css */
+
+/* Off-canvas container */
+.offcanvas-container {
+  position: fixed;
+  top: 0;
+  right: -100%; /* Initially hide off-canvas by positioning it out of the view */
+  width: 300px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9); /* Dark background */
+  color: white;
+  transition: right 0.3s ease; /* Smooth slide-in transition */
+  z-index: 1050; /* Make sure it’s above other elements */
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+/* Opened state */
+.offcanvas-open {
+  right: 0; /* Slide the off-canvas into view */
+}
+
+/* Close button */
+.offcanvas-close {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  align-self: flex-end; /* Align close button to the right */
+  cursor: pointer;
+}
+
+/* Off-canvas links */
+.offcanvas-nav {
+  list-style: none;
+  padding: 0;
+}
+
+.offcanvas-nav li {
+  margin: 15px 0;
+}
+
+.offcanvas-nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.offcanvas-nav a:hover {
+  color: lightgray; /* Change color on hover */
+}

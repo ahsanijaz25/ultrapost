@@ -1,0 +1,50 @@
+.Hero-background {
+    background: #101922;
+    font-family: "Poppins", sans-serif;
+}
+
+.Hero-background h1{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.Hero-background em{
+    color: #89c600;
+    font-style: normal;
+}
+
+.Hero-background p{
+    color:  #b4b9bb;
+    font-size: 1.3rem;
+    line-height: 1.4;
+}
+
+
+.p-hero-2 {
+    margin: 0 auto;
+    font-size: 1rem !important;
+    max-width: 88%;
+}
+
+.py-hero{
+    padding: 6rem 0;;
+}
+
+
+
+@media (max-width: 425px) {
+    .Hero-background h1 {
+        color: white;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .Hero-background p {
+       
+        font-size: 1rem;
+       
+    }
+    
+      }
+      

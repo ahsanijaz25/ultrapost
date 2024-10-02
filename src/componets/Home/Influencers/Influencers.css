@@ -1,0 +1,56 @@
+.influenceurs-background{
+    background-color: #F7F9FA;
+}
+
+.influencer-para{
+    width: 45%;
+    text-align: center;
+}
+
+.mt-neg{
+    margin-top: -10px;
+    border-top: 1px solid white;
+}
+
+.gray{
+    color: #aaaeb3;
+}
+
+.influencer-btn {
+    background-color: #FFFFFF;
+    color: black;
+    padding: 10px 35px;
+}
+
+
+
+/* .youtube-para{
+    width: 50%;
+} */
+
+
+@media only screen and (max-width: 992px) {
+.mt-992{
+    margin-top: 20px;
+}
+  }
+
+
+@media only screen and (max-width: 768px) {
+    .influencer-para{
+        width: 95%;
+        text-align: center;
+    }
+    .none-768{
+        display: none;
+    }
+  }
+
+@media only screen and (max-width: 425px) {
+    .influencer-para{
+        width:100%;
+        text-align: center;
+    }
+
+  }
+  

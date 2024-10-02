@@ -1,0 +1,278 @@
+.footer-section-1 {
+    background-color: #373f47;
+    /* Background color of the right section */
+}
+
+.footer-section-1 .left-image img {
+    max-height: 100%;
+    /* Ensure the image scales responsively */
+    object-fit: cover;
+    /* Keep aspect ratio */
+}
+
+.footer-section-1 .newsletter-form {
+    width: 100%;
+    display: flex;
+}
+
+.footer-section-1 .newsletter-form input {
+    width: 50%;
+    background-clip: border-box;
+    background-color: #101922;
+    border-color: #101922;
+    color: #fff;
+    padding: 1vh 2vw;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 0;
+    box-shadow: none;
+    color: #101922;
+    font-family: inherit;
+    font-size: 1vh;
+    line-height: 1vh;
+    transition: all 0.3s ease-in-out;
+    /* Smooth transition on focus */
+}
+
+.footer-section-1 .newsletter-form input:focus {
+    border-color: green;
+    /* Change border color to green */
+    background-color: white;
+    /* Change background color to white */
+    color: black;
+    /* Change text color to black */
+    outline: none;
+    /* Remove the default blue outline */
+}
+
+.footer-section-1 .newsletter-form button {
+    background-color: #fff;
+    padding: 1vh 2vw;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 0;
+    box-shadow: none;
+    color: #101922;
+    font-family: inherit;
+    font-size: 1vh;
+    line-height: 1vh;
+    margin-left: 2rem;
+}
+
+.footer-section-1 .newsletter-form button:before {
+    background: #89c600;
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    transition: transform .25s ease-out;
+    z-index: -1;
+}
+
+.footer-section-1 .text-white {
+    padding: 20px;
+    /* Add padding around the text */
+}
+
+
+@media (width: 991px) {
+
+    /* Stack image and form vertically on medium screens and smaller */
+
+    .footer-section .row {
+        flex-direction: column;
+    }
+
+    .footer-section .newsletter-form {
+        width: 100%;
+    }
+
+    .footer-section .left-image {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .footer-section .text-white {
+        text-align: center;
+    }
+
+    .footer-section .newsletter-form {
+        width: 100%;
+        display: flex;
+    }
+
+
+
+}
+
+
+.footer-section-2-responsive {
+    display: none;
+}
+
+.footer-section-2 {
+    display: block;
+}
+
+
+.footer-section-2 {
+    background-color: #2d2d2d;
+    color: #ffffff;
+    padding: 5vh 0;
+}
+
+.footer-section-2 ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 2vh;
+}
+
+.footer-section-2 a:hover {
+    text-decoration: underline;
+}
+
+
+
+.footer-section-2 .footer-title {
+    color: #b5b5b5;
+    font-weight: bold;
+    margin-bottom: 3vh;
+    font-size: 16px;
+}
+
+
+
+.footer-section-2 .footer-phone {
+    color: #A1C935;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer-section-2 .footer-address {
+    font-size: 14px;
+}
+
+.footer-section-2 .payment-icon {
+    margin-right: 15px;
+    width: 50px;
+}
+
+.footer-section-2 .social-icon {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #A1C935;
+}
+
+.footer-section-2 .footer-bottom-text {
+    color: #b5b5b5;
+    font-size: 14px;
+}
+
+
+@media (max-width: 768px) {
+
+    .footer-section-2 {
+        display: none;
+    }
+
+    .footer-section-2-responsive {
+        display: block;
+    }
+
+    .footer-section-2-responsive {
+        background-color: #2d2d2d;
+        color: #ffffff;
+        padding: 2vh 0;
+    }
+
+    .footer-section-2-responsive .accordion {
+        background-color: #2d2d2d;
+        border: none !important;
+    }
+
+    .footer-section-2-responsive .accordion .accordion-item {
+        background: none;
+        background-color: #2d2d2d;
+        border: none;
+        border-bottom: 1px solid #b4b9bb;
+    }
+
+    .footer-section-2-responsive .accordion .accordion-item .accordion-header {
+        background: none;
+        background-color: #2d2d2d;
+    }
+
+    .footer-section-2-responsive .accordion .accordion-item .accordion-header .accordion-button {
+        background: none;
+        background-color: #2d2d2d;
+        color: #89c600;
+        border: none;
+        /* Remove the border from the accordion item */
+    }
+
+    .footer-section-2-responsive .accordion .accordion-item .accordion-header .accordion-button::after {
+        color: white;
+    }
+
+    .footer-section-2-responsive .accordion .accordion-item .accordion-header .accordion-button.collapsed::after {
+        color: white;
+    }
+
+    .footer-section-2-responsive .accordion .accordion-item .accordion-body ul li a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .footer-section-2-responsive .accordion .accordion-item .accordion-body ul li a:hover {
+        color: white;
+        text-decoration: underline;
+    }
+
+    .footer-section-2-responsive .contact {
+        margin-top: 2vh;
+    }
+
+
+    .footer-section-2-responsive .footer-title {
+        color: #b5b5b5;
+        font-weight: bold;
+        margin-bottom: 0.5vh;
+        font-size: 14px;
+    }
+
+
+
+    .footer-section-2-responsive .footer-phone {
+        color: #A1C935;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .footer-section-2-responsive .footer-address {
+        font-size: 12px;
+    }
+
+
+    .footer-section-2-responsive .section-3 .payment-icon {
+        margin: 10px;
+        margin-left: 0px;
+        width: 50px;
+    }
+
+    .footer-section-2-responsive .social-icon {
+        margin: 0 10px;
+        font-size: 24px;
+        color: #A1C935;
+    }
+
+    .footer-section-2-responsive .footer-bottom-text {
+        color: #b5b5b5;
+        font-size: 14px;
+    }
+
+}

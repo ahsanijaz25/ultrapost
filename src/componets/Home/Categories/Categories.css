@@ -1,0 +1,74 @@
+.Categories-background{
+    background: #101922;
+    font-family: "Poppins", sans-serif;
+}
+
+.cat-p{
+        font-family: 'Poppins', 'system-ui';
+        font-size: 4.2rem;
+        text-align: center;
+        color: #fff;
+        font-weight: 600;
+        padding-top: 2em;
+}
+
+
+.cat-btn {
+    background-color: #fff;
+    width: 38%;
+    padding: 13px;
+    margin-top: 10px;
+    margin-bottom: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* repsonsive */
+
+@media (max-width: 768px) {
+    
+
+/* .cat-btn {
+width: 100%;
+} */
+
+  }
+
+
+  @media (max-width: 425px) {
+    
+
+    .cat-btn {
+        margin-bottom: 30px;
+    }
+
+    .mb-cat{
+        margin-bottom: 70px;
+    }
+    
+    .cat-p {
+        font-size: 2.5rem;
+        line-height: 50px;
+    }
+
+      }
+

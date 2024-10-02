@@ -1,0 +1,48 @@
+.pass-font{
+    font-family: "Poppins", sans-serif;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.pass-font em{
+    color: #89c600;
+    font-style: normal;
+}
+
+.pass-font h2{
+    font-size: 3rem;
+}
+
+.pass-1{
+    font-size: 1.3rem;
+        line-height: 1.4;
+}
+
+.p-pass-2{
+    margin: 0 auto;
+    font-size: 1rem !important;
+    max-width: 88%;
+}
+
+
+@media (max-width: 425px) {
+    .pass-font h2{
+        font-size: 2rem;
+    }
+    
+    .pass-1{
+        font-size: 1rem;
+           
+    }
+    
+    .p-pass-2 {
+        max-width: 100%;
+    }
+
+    .pass-font {
+        margin-bottom: 75px;
+    }
+
+
+      }
+

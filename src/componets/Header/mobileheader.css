@@ -1,0 +1,42 @@
+.mobile-top {
+    background-color: #373F47;
+    padding: 4px 0px 4px 20px;
+}
+
+.font-mobile {
+    font-size: 13px;
+    
+    font-family: "Poppins", sans-serif;
+}
+
+
+.mobile-bottom-header {
+    background-color: #101922;
+    padding: 12px 0px 12px 20px;
+}
+
+.p-canvas {
+    padding: 22px 13px;
+}
+
+
+.line{
+    border-bottom: 1px solid black;
+}
+
+.canvas-font{
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    color: #101922;
+    font-weight: 600;
+}
+
+.border-desk{
+    border-bottom: 1px dotted black;
+}
+
+
+.bg-deskConvas{
+    background-color: #F0F3F5;
+
+}
