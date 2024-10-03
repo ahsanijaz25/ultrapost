@@ -8,8 +8,18 @@ export default function HomeCarosuel() {
 
   const carouselData = [
     { image: 'HomeCarosuel_1.jpg', url: "/landing-page" },
-    { image: 'HomeCarosuel_2.jpg', url: "/landing-page" },
-    { image: 'HomeCarosuel_3.jpg', url: "/landing-page" }
+    { image: 'HomeCarosuel_2.jpg', url: "/page-1" },
+    { image: 'HomeCarosuel_3.jpg', url: "/page-2" },
+    { image: 'HomeCarosuel_4.jpg', url: "/page-3" },
+    { image: 'HomeCarosuel_5.jpg', url: "/page-4" },
+    { image: 'HomeCarosuel_6.jpg', url: "/page-5" },
+    { image: 'HomeCarosuel_7.jpg', url: "/page-6" },
+    { image: 'HomeCarosuel_8.jpg', url: "/page-7" },
+    { image: 'HomeCarosuel_9.jpg', url: "/page-8" },
+    { image: 'HomeCarosuel_10.jpg', url: "/page-9" },
+    { image: 'HomeCarosuel_11.jpg', url: "/page-10" },
+    { image: 'HomeCarosuel_12.jpg', url: "/page-11" },
+    { image: 'HomeCarosuel_13.jpg', url: "/page-12" }
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

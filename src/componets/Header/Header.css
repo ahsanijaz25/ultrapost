@@ -1,5 +1,13 @@
 .top-header{
-    background-color: #373F47;
+    /* background-color: #373F47; */
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 999;
+}
+.preNavbar{
+  background-color: #373F47;
 }
 
 .number{
@@ -16,7 +24,7 @@
     font-size: 1rem;
 }
 
-.dropdown-toggle::after {
+.country .dropdown-toggle::after {
    margin-left: 4.255em;
 }
 
@@ -162,4 +170,19 @@
 
 .offcanvas-nav a:hover {
   color: lightgray; /* Change color on hover */
+}
+
+
+.megaNav{
+  position: fixed;
+  z-index: 999;
+  background-color: #fff;
+  width: 100vw;
+  left: 0;
+  display: none;
+  top: 88px;
+}
+
+.top-header .navbar .navbar-nav li:hover .megaNav{
+  display: block;
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import "./mobileheader.css";
+import { Link } from "react-router-dom";
 
 export default function MobileHeader() {
   return (
@@ -12,7 +13,9 @@ export default function MobileHeader() {
       </div>
 
       <div className="mobile-bottom-header text-white d-flex justify-content-between">
+      <Link to={"/"}>
         <img src="../assets/ultrport.png" alt="" style={{ width: "9.2rem" }} />
+      </Link>
         <div className="d-flex align-items-center">
           <div className="navbar-icons d-flex">
             <a href="#" className="nav-icon">
@@ -23,15 +26,15 @@ export default function MobileHeader() {
             </a>
 
             {/* Trigger for the right offcanvas */}
-            <a
-              href="#"
+            <Link
+              to="/"
               className="nav-icon"
               data-bs-toggle="offcanvas"
               data-bs-target="#searchOffcanvas"
               aria-controls="searchOffcanvas"
             >
               <i className="fas fa-search" />
-            </a>
+            </Link>
           </div>
         </div>
       </div>

@@ -1,0 +1,38 @@
+.border-pc{
+    border-bottom: 1px solid black;
+}
+
+.border-pc div{
+    font-size: 0.8rem;
+}
+
+.border-pc div {
+    border-bottom: 1px solid transparent; /* Set transparent border initially */
+  }
+  
+  .border-pc div:hover {
+    border-bottom: 1px solid #7bc248; /* Change border to green on hover */
+    cursor: pointer; /* Optionally, change the cursor to pointer */
+  }
+
+.gray-back{
+    background-color: #F0F3F5;
+}
+.simple-width{
+    max-width: 60%;
+}
+.trouve-width{
+    max-width: 70%;
+}
+
+.right-auto{
+    margin-left: auto;
+}
+
+.left-auto{
+    margin-left: auto;
+}
+
+.overflow{
+    overflow: hidden;
+}

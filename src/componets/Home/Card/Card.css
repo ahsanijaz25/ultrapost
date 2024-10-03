@@ -1,0 +1,118 @@
+.product-card {
+    font-family: "Poppins", sans-serif;
+    transition: box-shadow 0.3s ease;
+    /* Smooth transition for shadow */
+    border-right: 1px solid rgb(150, 146, 146);
+
+
+}
+
+.product-card:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    /* Attractive shadow effect */
+    transform: translateY(-2px);
+    /* Slight upward movement */
+}
+
+.product-card .bold {
+    font-weight: bold;
+}
+
+.product-card h5 {
+    font-size: 1rem;
+    color: #101922;
+}
+
+.product-card .card_img {
+    height: 250px;
+    width: 300px;
+    overflow: hidden;
+    /* Hide overflow */
+    position: relative;
+    /* Position for absolute children if needed */
+}
+
+.product-card .card_img img {
+    width: 100%;
+    /* Make image full width of the container */
+    height: 100%;
+    /* Make image full height of the container */
+    object-fit: cover;
+}
+
+
+.product-card .star-rating {
+    font-size: 0.9em; /* Adjust size as needed */
+    margin: 5px 0; /* Space above and below the stars */
+}
+  
+  .product-card  .star-rating .fa-star {
+    margin-right: 2px; /* Space between stars */
+  }
+  
+
+
+.product-card .ps-pc {
+    padding-left: 3rem !important;
+}
+
+.product-card .plus-sign-list {
+    list-style: none;
+    /* Removes default bullet points */
+    padding-left: 0;
+    /* Removes any default padding */
+}
+
+.product-card .plus-sign-list li {
+    line-height: 1.4;
+    font-size: 0.8rem;
+    margin-top: 6px;
+    color: #101922;
+}
+
+.product-card .card-font {
+    font-size: 0.8rem;
+}
+
+.product-card .green {
+    color: green;
+}
+
+
+.product-card .plus-sign-list li::before {
+    content: '+ ';
+    /* Adds a plus sign before each list item */
+    color: #000;
+    /* You can change the color of the plus sign if needed */
+    font-weight: bold;
+    /* Make the plus sign bold */
+    padding-right: 3px;
+}
+
+.product-card .old-price {
+    color: #f04e37;
+    font-size: 0.7rem;
+    font-weight: 400;
+    text-decoration: line-through;
+}
+
+.product-card .new-price {
+    color: #101922;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+/* buttons */
+.product-card .cart-btn {
+    background-color: #89c600;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+
+.product-card .plus-btn {
+    background-color: #5e646b;
+    color: white;
+    padding: 10px 20px;
+}

@@ -1,0 +1,45 @@
+.font-8{
+    font-size: .8rem;
+}
+
+.I5-back{
+  background-color: #101922;
+}
+
+.I5-back p{
+  font-size: .8rem;
+}
+
+.filter-bar {
+    background-color: #f1f2f3;
+    padding: 15x 0;
+  }
+
+.bold{
+    font-weight: bold;
+}
+
+
+
+.I5  .dropdown-toggle {
+    border: 1px solid #d1d3d4;
+    padding: 10px;
+    background-color: white;
+    border-radius: 0;
+  }
+
+.I5  .dropdown-menu {
+    max-height: 300px;
+    overflow-y: auto;
+    width: 100%;
+  }
+
+
+.IDrop  .dropdown-toggle::after {
+    margin-left: 7.255em;
+}
+.IDrop  .dropdown-menu {
+    max-height: 300px;
+    overflow-y: auto;
+    width: 100%;
+  }

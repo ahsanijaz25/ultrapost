@@ -1,26 +1,38 @@
-.carousel-control-prev,
-.carousel-control-next {
-    width: 30px; /* Adjust width as needed */
-    border: none; /* Remove any border */
-    transition: transform 0.3s, opacity 0.3s; /* Smooth transition */
-    opacity: 0; /* Initially hidden */
-    pointer-events: none; /* Prevent clicks when hidden */
+
+
+.HomeCarosuel .carousel-control-prev,
+.HomeCarosuel .carousel-control-next {
+    width: 30px;
+    /* Adjust width as needed */
+    border: none;
+    /* Remove any border */
+    transition: transform 0.3s, opacity 0.3s;
+    /* Smooth transition */
+    opacity: 0;
+    /* Initially hidden */
+    pointer-events: none;
+    /* Prevent clicks when hidden */
 }
 
-.carousel-control-prev.show,
-.carousel-control-next.show {
-    opacity: 1; /* Fully visible when shown */
-    pointer-events: auto; /* Allow clicks when visible */
+.HomeCarosuel .carousel-control-prev.show,
+.HomeCarosuel .carousel-control-next.show {
+    opacity: 1;
+    /* Fully visible when shown */
+    pointer-events: auto;
+    /* Allow clicks when visible */
 }
 
-.carousel-control-prev:hover,
-.carousel-control-next:hover {
-    transform: translateX(5px); /* Move right on hover (adjust as needed) */
+.HomeCarosuel .carousel-control-prev:hover,
+.HomeCarosuel .carousel-control-next:hover {
+    transform: translateX(5px);
+    /* Move right on hover (adjust as needed) */
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    padding: 1vh 1vw; /* Adjust padding for better visibility */
-    background-size: 50% 50%; /* Adjust icon size */
+.HomeCarosuel .carousel-control-prev-icon,
+.HomeCarosuel .carousel-control-next-icon {
+    padding: 1vh 1vw;
+    /* Adjust padding for better visibility */
+    background-size: 50% 50%;
+    /* Adjust icon size */
     background-color: rgb(187, 194, 201);
 }

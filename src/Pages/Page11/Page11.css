@@ -1,0 +1,97 @@
+.page-11 .content h1 {
+    font-size: 2.8rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.page-11 .content span {
+    color: #89c600
+}
+
+.page-11 .content p {
+    font-size: 1.1rem;
+    line-height: 1.4;
+    color: #5e646b;
+    font-weight: 500;
+    text-align: center;
+}
+
+.page-11 .content-2 h1 {
+    font-size: 1.7rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+.page-11 .content-2 p {
+    font-size: 1.1rem;
+    line-height: 1.4;
+    color: #5e646b;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+.page-11.image-container {
+    width: 100%;
+    /* Full width of the parent container */
+    overflow: hidden;
+    /* Ensure that any overflowing parts are hidden */
+    display: flex;
+    /* Use flexbox for alignment */
+    justify-content: center;
+    /* Center the image */
+}
+
+.page-11 .image-container img {
+    width: 100%;
+    /* Make the image take the full width of the container */
+    height: auto;
+    /* Maintain aspect ratio */
+    display: block;
+    /* Prevent any extra space below the image */
+}
+
+
+@media (max-width: 768px) {
+
+
+    .page-11 .container {
+        padding: 0;
+    }
+
+    .page-11 .content h1 {
+        font-size: 2.2rem;
+    }
+
+    .page-11 .content span {
+        color: #89c600
+    }
+
+    .page-11 .content p {
+        font-size: 1rem;
+        line-height: 1.4;
+        color: #5e646b;
+        font-weight: 500;
+        text-align: center;
+    }
+
+
+    .page-11 .content-2 h1 {
+        font-size: 1.7rem;
+        font-weight: 500;
+        text-align: center;
+    }
+
+
+    .page-11 .content-2 p {
+        font-size: 1rem;
+        line-height: 1.4;
+        color: #5e646b;
+        font-weight: 500;
+        text-align: center;
+    }
+
+
+
+}

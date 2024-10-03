@@ -3,6 +3,7 @@ import './Ordinatur.css'
 
 export default function Ordinatur() {
   return (
+    <div className="megaNav ">
     <div className="container pops">
       <div className="d-flex justify-content-between">
         <div className="p-3 mr pc-config " style={{width:"40%"}}>
@@ -116,6 +117,7 @@ export default function Ordinatur() {
 
         </div>
       </div>
+    </div>
     </div>
   );
 }

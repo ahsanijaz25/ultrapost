@@ -1,0 +1,29 @@
+.m-euro{
+    margin: 10px 200px;
+}
+
+.bg-blk{
+    background-color: #101922;
+}
+
+.game-font p{
+    font-size: .8rem;
+}
+
+
+.gamer-li li {
+    list-style-type: none; /* Remove default bullets */
+    position: relative;
+    padding-left: 20px; /* Space for the checkmark */
+    margin-bottom: 10px;
+}
+
+.gamer-li li::before {
+    content: "✔"; /* Add checkmark */
+    color: #89c600; /* Green color */
+    position: absolute;
+    left: 0; /* Align checkmark to the left */
+    font-size: 16px; /* Adjust size as needed */
+    line-height: 1.2; /* Align with the text */
+}
+

@@ -1,0 +1,29 @@
+
+.page-2.image-container {
+    width: 100%;
+    /* Full width of the parent container */
+    overflow: hidden;
+    /* Ensure that any overflowing parts are hidden */
+    display: flex;
+    /* Use flexbox for alignment */
+    justify-content: center;
+    /* Center the image */
+}
+
+.page-2 .image-container img {
+    width: 100%;
+    /* Make the image take the full width of the container */
+    height: auto;
+    /* Maintain aspect ratio */
+    display: block;
+    /* Prevent any extra space below the image */
+}
+
+
+@media (max-width: 768px) {
+
+    .page-2 .container {
+        padding: 0;
+    }
+
+}

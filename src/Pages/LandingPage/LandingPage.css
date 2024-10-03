@@ -1,0 +1,67 @@
+.landing-page .video-container {
+    margin: 0;
+    /* Remove any default margin */
+    padding: 0;
+    /* Remove any default padding */
+    display: block;
+    /* Ensure the container behaves as a block element */
+}
+
+.landing-page iframe {
+    display: block;
+    /* Ensure the iframe behaves as a block element */
+    margin: 0;
+    /* Remove any default margin */
+    padding: 0;
+    /* Remove any default padding */
+    width: 100%;
+    /* Ensure it takes full width */
+    border: none;
+    /* Remove border if any */
+}
+
+
+.landing-page .image-container {
+    width: 100%;
+    /* Full width of the parent container */
+    overflow: hidden;
+    /* Ensure that any overflowing parts are hidden */
+    display: flex;
+    /* Use flexbox for alignment */
+    justify-content: center;
+    /* Center the image */
+}
+
+.landing-page .image-container img {
+    width: 100%;
+    /* Make the image take the full width of the container */
+    height: auto;
+    /* Maintain aspect ratio */
+    display: block;
+    /* Prevent any extra space below the image */
+}
+
+
+@media (max-width: 768px) {
+
+    .landing-page iframe {
+        display: block;
+        /* Ensure the iframe behaves as a block element */
+        margin: 0;
+        /* Remove any default margin */
+        padding: 0;
+        /* Remove any default padding */
+        width: 100%;
+        /* Ensure it takes full width */
+        height: auto;
+        /* Maintain aspect ratio */
+        border: none;
+        /* Remove border if any */
+    }
+
+    .landing-page .container {
+        padding: 0;
+    }
+
+
+}

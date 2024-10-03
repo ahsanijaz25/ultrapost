@@ -1,6 +1,10 @@
 .mobile-top {
     background-color: #373F47;
     padding: 4px 0px 4px 20px;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 999;
 }
 
 .font-mobile {
@@ -13,6 +17,10 @@
 .mobile-bottom-header {
     background-color: #101922;
     padding: 12px 0px 12px 20px;
+    position: fixed;
+    top: 27px;
+    width: 100vw;
+    z-index: 999;
 }
 
 .p-canvas {

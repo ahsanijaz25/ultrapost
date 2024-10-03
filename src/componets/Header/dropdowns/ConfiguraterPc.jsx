@@ -3,6 +3,7 @@ import "./ConfiguraterPC.css";
 
 export default function ConfiguraterPc() {
   return (
+    <div className="megaNav ">
     <div className="container pops">
       <div className="d-flex justify-content-between">
         <div className="p-3 pc-config">
@@ -34,6 +35,7 @@ export default function ConfiguraterPc() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }
