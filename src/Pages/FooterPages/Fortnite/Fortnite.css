@@ -1,0 +1,172 @@
+.Fortnite .content h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.Fortnite .content span {
+    color: #89c600
+}
+
+.Fortnite .content p {
+    font-size: 1.1rem;
+    line-height: 1.4;
+    color: #5e646b;
+    font-weight: 500;
+    text-align: center;
+}
+
+.Fortnite .content .pc-btn {
+    padding: 2vh 5vw;
+}
+
+.Fortnite .content a {
+    color: #89c600
+
+}
+
+.Fortnite .section-2 {
+    background-color: #1b1b1b;
+}
+
+.Fortnite .section-2 .content{
+    color: white;
+    padding: 5vh 10vw ;
+
+}
+
+.Fortnite .section-2 .content h1{
+    text-align: center;
+    padding: 0 10vw;
+    margin-bottom: 5vh;
+}
+
+.Fortnite .section-2 .content p{
+    text-align: left;
+    color: #5e646b;
+    margin: 10px 0;
+
+}
+
+.Fortnite .section-2 .content li{
+    text-align: left;
+    color: #5e646b;
+    margin: 10px 0;
+
+}
+
+
+.Fortnite iframe {
+    display: block;
+    /* Ensure the iframe behaves as a block element */
+    margin: 0;
+    /* Remove any default margin */
+    padding: 0;
+    /* Remove any default padding */
+    width: 100%;
+    /* Ensure it takes full width */
+    border: none;
+    /* Remove border if any */
+}
+
+
+
+.Fortnite  .card-wrapper {
+    min-height: 500px; /* Adjust this to your desired height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .Fortnite  .card-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+
+
+.Fortnite  .gamer-para{
+    font-size: 0.8rem;
+color: white;
+}
+
+.Fortnite  .influenceurs-background{
+    background-color: #F7F8FA;
+}
+
+.Fortnite  .review-mt{
+    margin-bottom: 80px;
+}
+
+
+
+
+@media (max-width: 768px) {
+
+
+    .Fortnite .container {
+        padding: 0;
+    }
+
+    .Fortnite .content h1 {
+        font-size: 2.2rem;
+    }
+
+    .Fortnite .content span {
+        color: #89c600
+    }
+
+    .Fortnite .content p {
+        font-size: 1rem;
+        line-height: 1.4;
+        color: #5e646b;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .Fortnite .content p {
+        font-size: 1rem;
+        line-height: 1.4;
+        color: #5e646b;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .Fortnite .card-section{
+        padding: 0 10px;
+    }
+    .Fortnite .card-section .card-image .btn-overlay {
+    font-size: 13px;
+    
+    }
+
+
+    .Fortnite .section-2 .content{
+        padding: 5vh 3vw ;
+    
+    }
+    
+    .Minecraft .section-2 .content h1{
+        padding: 0 3vw;
+    }
+    
+  
+    .Fortnite iframe {
+        display: block;
+        /* Ensure the iframe behaves as a block element */
+        margin: 0;
+        /* Remove any default margin */
+        padding: 0;
+        /* Remove any default padding */
+        width: 100%;
+        /* Ensure it takes full width */
+        height: auto;
+        /* Maintain aspect ratio */
+        border: none;
+        /* Remove border if any */
+    }
+
+}

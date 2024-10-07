@@ -35,7 +35,7 @@ export default function Card({ productCardData }) { // Accept the data as props
             >
               <div className="card_img mb-2 w-100">
                 <img
-                  src={hoveredId === product.id ? `../assets/${product.hoverImgURL}` : `../assets/${product.imgURL}`}
+                  src={hoveredId === product.id ? `../assets/image/${product.hoverImgURL}` : `../assets/image/${product.imgURL}`}
                   alt={product.title}
                   className="img-fluid"
                 />

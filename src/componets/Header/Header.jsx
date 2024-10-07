@@ -171,6 +171,24 @@ export default function Header() {
            
         </div>
       )}
+
+      {/* Uncomment and use these dropdowns when needed */}
+      {/* <PcDrop /> */}
+      {/* <ConfiguraterPc /> */}
+      {/* <Ordinatur /> */}
+      {/* <PCeditiondrop /> */}
+      {/* <Reductions /> */}
+
+
+      {/*Uncomment and use them PC GAMER Components */}
+      {/* <CoreI5/> */}
+      {/* <AMD/> */}
+      {/* <PCgamercomplet/> */}
+      {/* <GamingPC800Euro/> */}
+      {/* <Windows11/> */}
+      {/* <PCgamerMain/> */}
+
+
     </>
   );
 }

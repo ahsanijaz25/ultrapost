@@ -2,6 +2,10 @@ import React from 'react';
 import "./HeroUltra.css"
 
 export default function HeroUltra() {
+
+
+
+
   return (
     <>
       <div className='Hero-background '>

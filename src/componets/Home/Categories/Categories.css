@@ -13,14 +13,39 @@
 }
 
 
-.cat-btn {
+/* .cat-btn {
     background-color: #fff;
     width: 38%;
     padding: 13px;
     margin-top: 10px;
     margin-bottom: 250px;
 }
+ */
 
+       /* new button */
+
+       .cat-btn {
+        background-color: #fff;
+        width: 38%;
+        padding: 13px;
+        margin-top: 10px;
+        margin-bottom: 250px;
+        font-family: 'Arial', sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        color: #000;
+        border: none;
+        cursor: pointer;
+        position: relative;
+        clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+    }
+    
+    .cat-btn:hover {
+        background-color:#89C600;
+        color: white;
+    }
+    
+      
 
 
 
@@ -71,4 +96,5 @@ width: 100%;
     }
 
       }
+
 

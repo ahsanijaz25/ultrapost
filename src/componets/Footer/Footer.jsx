@@ -10,9 +10,9 @@ export default function Footer() {
 
       <div className='footer-container'>
 
-        <div className="container-fluid footer-section-1 g-0">
+        <div className="container-fluid footer-section-1">
           <div className="row align-items-center ">
-            <div className="col-lg-6 col-md-12 left-image">
+            <div className="col-lg-6 col-md-12 left-image p-0">
               <img src={`${imgURL}/newsletter_bg.jpg`} alt="Newsletter Image" className="img-fluid" />
             </div>
             <div className="col-lg-6 col-md-12 text-white">

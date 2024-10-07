@@ -1,0 +1,108 @@
+.PcPourJouer .content h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.PcPourJouer .content span {
+    color: #89c600
+}
+
+.PcPourJouer .content .pc-btn {
+    padding: 2vh 5vw;
+}
+
+.PcPourJouer .content p {
+    font-size: 1.1rem;
+    line-height: 1.4;
+    color: #5e646b;
+    font-weight: 500;
+    text-align: center;
+}
+
+.PcPourJouer .card-section .card-image {
+    position: relative;
+    /* Make this relative to position the button */
+}
+
+.PcPourJouer .card-section .card-image .btn-overlay {
+    position: absolute;
+    bottom: 10px;
+    /* 10 pixels from the bottom */
+    left: 50%;
+    /* Center it horizontally */
+    transform: translateX(-50%);
+    /* Adjust for the width of the button */
+    /* Additional styling */
+    background-color: #fff;
+    /* Example background color */
+    color: #101922;
+    /* Example text color */
+    border: none;
+    /* Remove border */
+    padding: 10px 15px;
+    /* Add padding */
+
+    cursor: pointer;
+    /* Change cursor on hover */
+    font-size: 14px;
+
+}
+
+.PcPourJouer .section-2 {
+    background-color: #1b1b1b;
+}
+
+.PcPourJouer .section-2 .content{
+    color: white;
+}
+
+.PcPourJouer .section-2 .content h1{
+    text-align: left;
+}
+
+.PcPourJouer .section-2 .content p{
+    text-align: left;
+    color: #5e646b;
+}
+
+
+@media (max-width: 768px) {
+
+
+    .PcPourJouer .container {
+        padding: 0;
+    }
+
+    .PcPourJouer .content h1 {
+        font-size: 2.2rem;
+    }
+
+    .PcPourJouer .content span {
+        color: #89c600
+    }
+
+    .PcPourJouer .content p {
+        font-size: 1rem;
+        line-height: 1.4;
+        color: #5e646b;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .PcPourJouer .content p {
+        font-size: 1rem;
+        line-height: 1.4;
+        color: #5e646b;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .PcPourJouer .card-section{
+        padding: 0 10px;
+    }
+    .PcPourJouer .card-section .card-image .btn-overlay {
+    font-size: 13px;
+    
+    }
+}

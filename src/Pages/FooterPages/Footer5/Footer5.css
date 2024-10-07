@@ -1,0 +1,112 @@
+.Footer5 .content h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: left;
+    margin: 20px 0;
+    text-align: center;
+    padding: 5vh 10vw;
+}
+
+.Footer5 .content h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: left;
+    margin: 20px 0;
+}
+
+
+.Footer5 .content p {
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #5e646b;
+    font-weight: 400;
+    text-align: left;
+    margin: 20px 0;
+}
+
+.Footer5 .content ul li a {
+    color: #89c600;
+}
+
+
+.image-container {
+    overflow: hidden;
+    /* Hide any overflow */
+}
+
+.image-container img {
+    height: 100%;
+    /* Make the image fill the container's height */
+    width: auto;
+    /* Maintain the aspect ratio */
+    object-fit: cover;
+    /* Optionally, cover the container */
+}
+
+.card-container{
+    display: flex;
+    gap: 3vw;
+}
+
+.card-image-container {
+    height: 200px;
+    /* Set the desired height */
+    overflow: hidden;
+    /* Hide any overflow */
+}
+
+.card-image-container img {
+    height: 100%;
+    /* Make the image fill the container's height */
+    width: auto;
+    /* Maintain the aspect ratio */
+    object-fit: cover;
+    /* Optionally, cover the container */
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+    .Footer5 .content h1 {
+        font-size: 1.8rem;
+        font-weight: 500;
+        text-align: left;
+        margin: 20px 0;
+        text-align: center;
+        padding: 0 3vw;
+    }
+
+    .Footer5 .content h2 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        text-align: left;
+        margin: 20px 0;
+    }
+
+    .Footer5 .content span {
+        color: #89c600
+    }
+
+    .Footer5 .content p {
+        font-size: 0.9rem;
+        line-height: 1.4;
+        color: #5e646b;
+        font-weight: 400;
+        text-align: left;
+    }
+
+    .Footer5 .content ul li {
+        list-style: none;
+    }
+
+    .card-container{
+        display: flex;
+        flex-direction: column;
+        gap: 3vh;
+    }
+
+}

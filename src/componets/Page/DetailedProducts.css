@@ -1,0 +1,133 @@
+.black-border {
+    border: 1px solid black;
+  }
+
+.dark-grayBack{
+    background-color: #373F47;
+}
+
+.line-through{
+    text-decoration: line-through;
+    
+}
+
+  
+  .main-image {
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .highlighted {
+    border: 2px solid green; /* Highlight the selected thumbnail */
+    filter: brightness(1.2); /* Brighten the selected image */
+  }
+  
+
+  .centered-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .centered-content:before,
+  .centered-content:after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px dotted #000; /* Color of the lines */
+    margin: 0 10px; /* Space between the line and the text */
+  }
+  
+  .centered-content span {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+  }
+  
+  .border-bot{
+    border-bottom: 1px  dotted black;
+  }
+
+
+  .green-hover {
+    color: inherit; /* Default color */
+    cursor: pointer; /* Show pointer on hover */
+    transition: color 0.3s ease; /* Smooth transition for the color change */
+  }
+  
+  .green-hover:hover {
+    color: #89c600; /* Change to green on hover */
+  }
+  
+  .mini-border{
+    border: 2px solid  #89c600;
+    width: 50px;
+  }
+
+  .gray-strip{
+    border: 1px solid #383d3f;
+  }
+  .red{
+    color: red;
+  }
+
+.form-input{
+    color: white;
+    border: 1px solid hsla(0, 0%, 100%, .1)
+}
+
+.form-input:focus {
+    border-color: white;
+    outline: none; 
+  }
+
+
+  .form-textarea{
+    background-color: transparent;
+    color: white;
+    border: 1px solid hsla(0, 0%, 100%, .1)
+  }
+  .form-textarea:focus {
+    border-color: white;
+    outline: none; 
+  }
+
+.form-Avis-btn{
+    text-transform: uppercase;
+    padding: 15px 30px ;
+    border: none;
+}
+
+.form-Avis-btn:hover {
+    background-color: #89c600; 
+    color: white; 
+}
+
+/* Default styling for installment options */
+.installment-option {
+    color: black;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Active option styling (on click) */
+  .installment-option.active {
+    background-color: black;
+    color: white;
+  }
+  
+  /* Style for price display */
+  .price-display {
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  
+
+  .product-btn{
+    background-color: #89c600;
+     border: none;
+     padding: 0px 10px;
+     color: white;
+     font-weight: bold;
+
+  }

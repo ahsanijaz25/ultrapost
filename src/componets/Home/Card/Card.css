@@ -108,11 +108,15 @@
     background-color: #89c600;
     color: white;
     padding: 10px 20px;
-    margin-right: 10px;
+    /* margin-right: 10px; */
+    clip-path: polygon(0 0, 100% 0, 88% 100%, 0% 100%);
+    border: none;
 }
 
 .product-card .plus-btn {
     background-color: #5e646b;
     color: white;
     padding: 10px 20px;
+    border: none;
+    clip-path: polygon(0.4rem 0, 100% 0, 100% 100%, 0 100%);
 }

@@ -1,0 +1,111 @@
+.Wukong .content h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.Wukong .content span {
+    color: #89c600
+}
+
+.Wukong .content p {
+    font-size: 1.1rem;
+    line-height: 1.4;
+    color: #5e646b;
+    font-weight: 500;
+    text-align: center;
+}
+
+.Wukong .content .pc-btn {
+    padding: 2vh 5vw;
+}
+
+.Wukong .content a {
+    color: #89c600
+
+}
+
+.Wukong .section-2 {
+    background-color: #1b1b1b;
+}
+
+.Wukong .section-2 .content{
+    color: white;
+    padding: 5vh 10vw ;
+
+}
+
+.Wukong .section-2 .content h1{
+    text-align: center;
+    padding: 0 10vw;
+    margin-bottom: 5vh;
+}
+
+.Wukong .section-2 .content p{
+    text-align: left;
+    color: #5e646b;
+    margin: 10px 0;
+
+}
+
+.Wukong .section-2 .content li{
+    text-align: left;
+    color: #5e646b;
+    margin: 10px 0;
+
+}
+
+
+@media (max-width: 768px) {
+
+
+    .Wukong .container {
+        padding: 0;
+    }
+
+    .Wukong .content h1 {
+        font-size: 2.2rem;
+    }
+
+    .Wukong .content span {
+        color: #89c600
+    }
+
+    .Wukong .content p {
+        font-size: 1rem;
+        line-height: 1.4;
+        color: #5e646b;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .Wukong .content p {
+        font-size: 1rem;
+        line-height: 1.4;
+        color: #5e646b;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .Wukong .card-section{
+        padding: 0 10px;
+    }
+    .Wukong .card-section .card-image .btn-overlay {
+    font-size: 13px;
+    
+    }
+
+
+
+    .Wukong .section-2 .content{
+        padding: 5vh 3vw ;
+    
+    }
+    
+    .Wukong .section-2 .content h1{
+        padding: 0 3vw;
+    }
+    
+
+
+}

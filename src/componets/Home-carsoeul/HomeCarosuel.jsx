@@ -8,18 +8,18 @@ export default function HomeCarosuel() {
 
   const carouselData = [
     { image: 'HomeCarosuel_1.jpg', url: "/landing-page" },
-    { image: 'HomeCarosuel_2.jpg', url: "/page-1" },
-    { image: 'HomeCarosuel_3.jpg', url: "/page-2" },
-    { image: 'HomeCarosuel_4.jpg', url: "/page-3" },
-    { image: 'HomeCarosuel_5.jpg', url: "/page-4" },
-    { image: 'HomeCarosuel_6.jpg', url: "/page-5" },
-    { image: 'HomeCarosuel_7.jpg', url: "/page-6" },
-    { image: 'HomeCarosuel_8.jpg', url: "/page-7" },
-    { image: 'HomeCarosuel_9.jpg', url: "/page-8" },
-    { image: 'HomeCarosuel_10.jpg', url: "/page-9" },
-    { image: 'HomeCarosuel_11.jpg', url: "/page-10" },
-    { image: 'HomeCarosuel_12.jpg', url: "/page-11" },
-    { image: 'HomeCarosuel_13.jpg', url: "/page-12" }
+    { image: 'HomeCarosuel_2.jpg', url: "/amd-radeon-rx-7800xt-7700xt-game-bundle" },
+    { image: 'HomeCarosuel_3.jpg', url: "/powered-by-msi" },
+    { image: 'HomeCarosuel_4.jpg', url: "/amd-ryzen-9000" },
+    { image: 'HomeCarosuel_5.jpg', url: "/nvidia-rtx-ai-pcs" },
+    { image: 'HomeCarosuel_6.jpg', url: "/xbox-game-pass-ultimate" },
+    { image: 'HomeCarosuel_7.jpg', url: "/nvidia-rtx-40-super" },
+    { image: 'HomeCarosuel_8.jpg', url: "/ki-pc" },
+    { image: 'HomeCarosuel_9.jpg', url: "/intel-core-14-generation" },
+    { image: 'HomeCarosuel_10.jpg', url: "/paiement-en-plusieurs-fois-alma" },
+    { image: 'HomeCarosuel_11.jpg', url: "/amd-ryzen-7000" },
+    { image: 'HomeCarosuel_12.jpg', url: "/corsair-icue-murals" },
+    { image: 'HomeCarosuel_13.jpg', url: "/en-securite-avec-windows-11" }
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

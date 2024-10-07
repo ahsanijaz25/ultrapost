@@ -17,9 +17,16 @@
 }
 
 .influencer-btn {
-    background-color: #FFFFFF;
-    color: black;
-    padding: 10px 35px;
+    background-color: #FFFFFF; /* Initial background color */
+    color: black; /* Initial text color */
+    padding: 10px 35px; /* Padding */
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%); /* Slant effect */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.influencer-btn:hover {
+    background-color: #89C600; /* Background color on hover */
+    color: white; /* Text color on hover */
 }
 
 

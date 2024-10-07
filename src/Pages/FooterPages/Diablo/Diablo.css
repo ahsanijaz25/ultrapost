@@ -1,0 +1,138 @@
+.Diablo .content h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.Diablo .content span {
+    color: #89c600
+}
+
+.Diablo .content p {
+    font-size: 1.1rem;
+    line-height: 1.4;
+    color: #5e646b;
+    font-weight: 500;
+    text-align: center;
+}
+
+.Diablo .content .pc-btn {
+    padding: 2vh 5vw;
+}
+
+.Diablo .content a {
+    color: #89c600
+
+}
+
+.Diablo .section-2 {
+    background-color: #1b1b1b;
+}
+
+.Diablo .section-2 .content{
+    color: white;
+    padding: 5vh 10vw ;
+
+}
+
+.Diablo .section-2 .content h1{
+    text-align: center;
+    padding: 0 10vw;
+    margin-bottom: 5vh;
+}
+
+.Diablo .section-2 .content p{
+    text-align: left;
+    color: #5e646b;
+    margin: 10px 0;
+
+}
+
+.Diablo .section-2 .content li{
+    text-align: left;
+    color: #5e646b;
+    margin: 10px 0;
+
+}
+
+
+.Diablo iframe {
+    display: block;
+    /* Ensure the iframe behaves as a block element */
+    margin: 0;
+    /* Remove any default margin */
+    padding: 0;
+    /* Remove any default padding */
+    width: 100%;
+    /* Ensure it takes full width */
+    border: none;
+    /* Remove border if any */
+}
+
+
+@media (max-width: 768px) {
+
+
+    .Diablo .container {
+        padding: 0;
+    }
+
+    .Diablo .content h1 {
+        font-size: 2.2rem;
+    }
+
+    .Diablo .content span {
+        color: #89c600
+    }
+
+    .Diablo .content p {
+        font-size: 1rem;
+        line-height: 1.4;
+        color: #5e646b;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .Diablo .content p {
+        font-size: 1rem;
+        line-height: 1.4;
+        color: #5e646b;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .Diablo .card-section{
+        padding: 0 10px;
+    }
+    .Diablo .card-section .card-image .btn-overlay {
+    font-size: 13px;
+    
+    }
+
+
+    .Diablo .section-2 .content{
+        padding: 5vh 3vw ;
+    
+    }
+    
+    .Diablo .section-2 .content h1{
+        padding: 0 3vw;
+    }
+    
+  
+    .Diablo iframe {
+        display: block;
+        /* Ensure the iframe behaves as a block element */
+        margin: 0;
+        /* Remove any default margin */
+        padding: 0;
+        /* Remove any default padding */
+        width: 100%;
+        /* Ensure it takes full width */
+        height: auto;
+        /* Maintain aspect ratio */
+        border: none;
+        /* Remove border if any */
+    }
+
+}

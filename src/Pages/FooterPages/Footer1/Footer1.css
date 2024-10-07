@@ -1,0 +1,54 @@
+.Footer1 .content h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: left;
+    margin: 20px 0;
+}
+
+.Footer1 .content span {
+    color: #89c600
+}
+
+.Footer1 .content p {
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #5e646b;
+    font-weight: 400;
+    text-align: left;
+}
+
+.Footer1 .content ul li {
+    list-style: none;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+
+    .Footer2 .content h1 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        text-align: left;
+        margin: 20px 0;
+    }
+    
+    .Footer2 .content span {
+        color: #89c600
+    }
+    
+    .Footer2 .content p {
+        font-size: 0.9rem;
+        line-height: 1.4;
+        color: #5e646b;
+        font-weight: 400;
+        text-align: left;
+    }
+    
+    .Footer2 .content ul li {
+        list-style: none;
+    }
+    
+
+}
